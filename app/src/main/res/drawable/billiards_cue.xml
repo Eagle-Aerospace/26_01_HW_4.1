@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+
+            <solid android:color="#8E3216"/>  <!-- Цвет фона-->
+            <corners android:radius="2dp"/> <!-- Скругление углов-->
+            <size android:height="500dp"/>
+            <size android:width="5dp"/>
+            <gradient android:type="linear"
+                android:centerColor="#FFEB3B"
+                android:startColor="#8E3216"
+                android:endColor="#8D3216" />
+        </shape>
+    </item>
+</selector>
